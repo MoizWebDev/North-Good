@@ -1,0 +1,1119 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+footer {
+  color: white;
+  background-color: #010049;
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+#footer-main {
+  font-size: 50px;
+}
+#navMenu ul li a {
+  transition: all 0.5s;
+}
+#navMenu ul li a:hover {
+  color: #9b99f0;
+}
+.main-footer-content p {
+  text-decoration: underline;
+  margin-top: 30px;
+}
+.main-footer-content h2 {
+  width: 280px;
+  color: #ffff;
+  opacity: 0.8;
+}
+#footer-logo {
+  position: relative;
+  right: 17px;
+}
+.footer-links {
+  opacity: 0.6;
+  color: white;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 16px;
+  margin: 20px 0px;
+}
+footer a {
+  margin: 20px 0px;
+}
+.footer-content {
+  margin-top: 30px;
+}
+.main-footer-content {
+  margin-top: 0;
+}
+#footer-email {
+  color: #141413;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 10px;
+  width: 373px;
+  font-size: 20px;
+  height: 60px;
+}
+.subscribe-btn {
+  width: 186px;
+  height: 59px;
+  background-color: #565656;
+  border: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 6px;
+  margin-top: 30px;
+}
+.footer-links-cont {
+  margin: 20px 0px;
+}
+.links-cont-footer {
+  margin: 0px;
+  margin-top: 10px;
+}
+#footer-end-copy {
+  display: none;
+}
+.other-links {
+  position: relative;
+  top: 6px;
+}
+header {
+  background-color: transparent;
+  position: relative;
+}
+.head-container {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  padding: 40px 173px;
+  width: 100vw;
+  z-index: 1000;
+}
+header nav ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+header nav ul li a {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+.active {
+  color: #9b99f0;
+}
+header nav ul li {
+  list-style: none;
+}
+.page-info {
+  background: url(/imgs/Home-Banner.jpg) no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  color: white;
+  position: relative; /* Needed for stacking */
+  text-align: center;
+}
+
+/* Add a pseudo-element to create a black overlay */
+.page-info::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black; /* Black overlay */
+  opacity: 0.5; /* Opacity level */
+}
+
+.heading-main {
+  font-size: 70px;
+  z-index: 100; /* Ensure the text appears above the overlay */
+}
+.page-info h4,
+.page-info a {
+  z-index: 100;
+}
+.page-info h4 {
+  font-size: 25px;
+}
+.invest {
+  display: flex;
+  align-items: center;
+}
+.hamburger {
+  background: none;
+  border: none;
+  display: none;
+}
+.page-info a,
+.main-btn {
+  background-color: #141414;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+  transition: all 0.5s;
+}
+.btn {
+  width: 389px;
+  height: 97px;
+  background-color: #565656;
+  border: none;
+  font-size: 50px;
+  color: white;
+  border-radius: 6px;
+  background-color: #141414;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+}
+.contact-us {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 200px;
+}
+.contact-desc {
+  font-size: 30px;
+  width: 486px;
+  color: #585858;
+}
+.page-info a:hover,
+.main-btn:hover {
+  background-color: #fff;
+  color: #565656;
+}
+.btn:hover {
+  background-color: #14141450;
+
+  color: #141414;
+}
+.description {
+  margin-top: 30px;
+  font-size: 35px;
+  text-align: center;
+}
+.people-img {
+  height: 100%;
+}
+
+.lists-heading {
+  width: 560px;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 18px;
+  font-variation-settings: "wdth" 100;
+  display: block;
+}
+.lists {
+  margin-left: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18px;
+  font-variation-settings: "wdth" 100;
+}
+.case-study {
+  background-color: #8f8f8f;
+  padding: 200px;
+  color: #fff;
+}
+.demand {
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+.invest {
+  background-color: #010049;
+  color: white;
+  padding: 90px 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.icons {
+  font-size: 40px;
+  color: #79efbc;
+}
+.invest-container {
+  width: 80%;
+}
+.heading {
+  text-align: center;
+  font-size: 50px;
+}
+.whyinvest-container {
+  margin-top: 50px;
+  position: relative;
+}
+.main-invest-conts {
+  display: flex;
+  justify-content: space-between;
+}
+.main-invest .heading-invest {
+  font-size: 30px;
+  margin: 15px 0px;
+}
+.main-invest .desc-invest {
+  width: 475px;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18px;
+  font-variation-settings: "wdth" 100;
+}
+.first-invest {
+  border-bottom: 0.5px solid #e6e6e6;
+  padding-bottom: 100px;
+}
+.second-invest {
+  padding-top: 100px;
+}
+.middle-border {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1px;
+  height: 100%;
+  background-color: #e6e6e6;
+  opacity: 0.5;
+}
+.qualities {
+  display: flex;
+  gap: 70px;
+}
+.profile-info-cont {
+  padding-top: 50px;
+}
+.milestones {
+  padding: 100px;
+}
+.quality {
+  position: relative;
+}
+.plus-quality {
+  position: absolute;
+  top: -14px;
+  font-size: 50px;
+  color: #4745b7;
+  left: 28px;
+}
+.approach {
+  height: 83vh;
+}
+.carousel {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  margin: 50px 0px;
+}
+.carousel-icons {
+  font-size: 50px;
+  color: white;
+  margin: 0px 20px;
+}
+.slides-container {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  flex: 0 0 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-radius: 50px;
+}
+
+.active {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+.rating {
+  font-size: 35px;
+}
+.desc-quality {
+  color: #828282;
+  font-size: 20px;
+}
+.approach-firstrow {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.desc-approach {
+  font-size: 30px;
+  width: 869px;
+  text-align: center;
+}
+.text-panels {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+.text-panel {
+  align-items: center;
+  display: flex;
+  width: 381px;
+  height: 381px;
+  color: white;
+  padding: 27px;
+  padding-top: 27px;
+  border-radius: 20px;
+  text-align: center;
+}
+.text-panel-heading {
+  font-size: 40px;
+}
+.text-panel-desc {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  margin-top: 20px;
+  font-size: 22px;
+  letter-spacing: 0.5px;
+  font-variation-settings: "wdth" 100;
+}
+.text-panel ul li {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 22px;
+}
+.tech-desc {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 30px;
+  width: 664px;
+}
+.services-imgs {
+  border-radius: 20px;
+}
+.carrers-values {
+  width: 595px;
+  height: 324px;
+  text-align: center;
+  z-index: 1;
+  border-radius: 20px;
+  padding: 20px;
+}
+.carrers-values h2,
+.carrers-values p {
+  z-index: 1111;
+}
+.carrers-values p {
+  opacity: 1;
+}
+.carrers-values {
+  background: url(/imgs/impact-carrers.jpg) no-repeat;
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  position: relative; /* Needed for stacking */
+  text-align: center;
+}
+
+.carrer-value-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+/* Add a pseudo-element to create a black overlay */
+.carrers-values::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  background-color: black; /* Black overlay */
+  opacity: 0.5; /* Opacity level */
+}
+.carrers-main {
+  background-color: #010049;
+  color: white;
+  padding: 150px;
+}
+.carrers-row {
+  margin-top: 100px;
+}
+.news-img {
+  width: 418px;
+  height: 235px;
+  background-color: #d9d9d9;
+  border-radius: 25px;
+}
+.news-main {
+  color: white;
+  background-color: #010049;
+  padding: 100px;
+}
+
+.approach-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+.news {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 100px 0px;
+  border-bottom: 1px solid #e6e6e6;
+}
+.tech-comm-cont {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 100px;
+}
+.info,
+.news-infos {
+  width: 769px;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18px;
+}
+.news-date {
+  margin-top: 20px;
+}
+.news-author {
+  margin-bottom: 40px;
+}
+.tech-community {
+  background-color: #010049;
+  color: #fff;
+  padding: 100px;
+}
+.text-panel ul {
+  margin-left: 30px;
+}
+.core-management {
+  background-color: #010049;
+  color: #fff;
+  padding: 90px;
+}
+.approach {
+  padding: 70px;
+}
+.management-people {
+  display: flex;
+  justify-content: space-between;
+}
+.people-img {
+  border-radius: 16px;
+}
+.people-desc {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 2.5rem;
+  margin-top: 20px;
+  font-size: 20px;
+  opacity: 0.8;
+  padding-bottom: 80px;
+  border-bottom: 1px solid #e6e6e6;
+}
+.open-position {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  border-bottom: 1px solid #e6e6e6;
+  padding-bottom: 100px;
+}
+
+.people-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+}
+.management-people {
+  margin-top: 100px;
+  width: 80%;
+}
+.profession {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 16px;
+  opacity: 0.8;
+  font-style: normal;
+}
+.name {
+  font-size: 30px;
+}
+.profile-info-cont {
+  display: flex;
+}
+.comas {
+  width: 64px;
+  height: 64px;
+  background-color: #252eff;
+  border-radius: 8px;
+  font-size: 45px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+.main-portfolio {
+  background-color: #010049;
+  color: #fff;
+  padding: 100px;
+}
+.investment-management {
+  background-color: #010049;
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.investment-img {
+  border-bottom-left-radius: 50px;
+  margin-top: 50px;
+}
+.investment-banking {
+  padding: 100px;
+}
+.investment-desc {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 25px;
+  width: 1100px;
+}
+.desc {
+  font-size: 25px;
+  text-align: center;
+}
+.company-desc {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 10px;
+  width: 617px;
+  opacity: 0.8;
+  font-style: normal;
+}
+.company-website {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 18px;
+  position: relative;
+  top: 25px;
+  width: 617px;
+  opacity: 0.8;
+  font-style: normal;
+  color: #fff;
+}
+.company {
+  margin-top: 140px;
+  justify-content: space-around;
+  display: flex;
+}
+@media only screen and (max-width: 1120px) {
+  .footer-content {
+    display: none;
+  }
+  .footer-content:first-child {
+    display: initial;
+  }
+  .footer-content:last-child {
+    display: initial;
+  }
+  .main-footer-content h2 {
+    width: 374px;
+    color: #ffff;
+    opacity: 0.8;
+    text-align: center;
+  }
+  .logo-footer {
+    display: flex;
+    justify-content: center;
+  }
+  .main-footer-content p {
+    text-align: center;
+  }
+  #footer-strt-copy {
+    display: none;
+  }
+  #footer-end-copy {
+    display: block;
+    margin-top: 20px;
+    text-decoration: underline;
+  }
+}
+
+.contact-infos {
+  display: flex;
+  justify-content: space-around;
+  background-color: #010049;
+  color: white;
+  padding: 150px;
+}
+.contact-infos .heading {
+  text-align: start;
+}
+.mail {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 22px;
+  opacity: 0.8;
+  font-style: normal;
+  color: #fff;
+}
+@media only screen and (max-width: 1082px) {
+  .hamburger {
+    display: initial;
+  }
+  .head-container {
+    padding-right: 0;
+    padding-left: 0;
+    justify-content: space-around;
+  }
+  header nav {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: #01004990;
+    text-align: center;
+    width: 50vw;
+    top: 100px;
+    left: 100vw;
+    transition: all 0.5s;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+  header nav ul {
+    display: block;
+  }
+}
+.main-case-desc {
+  text-align: start;
+  margin: 0px;
+  position: relative;
+  bottom: 50px;
+}
+.runsun-study {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.studies {
+  display: flex;
+}
+.study {
+  margin-top: 50px;
+  font-size: 25px;
+  width: initial;
+}
+.bold-study {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  margin-top: 10px;
+  font-style: normal;
+}
+.font-28 {
+  font-size: 28px;
+}
+.runsun-study img {
+  width: 325px;
+}
+.main-heading {
+  font-size: 150px;
+  margin: 0px;
+}
+.list {
+  border: none;
+  padding: 0px;
+}
+.second-section {
+  padding: 100px;
+}
+.between {
+  justify-content: space-between;
+}
+.text-panel {
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+.text-panel .heading {
+  margin: 0px;
+}
+.between .text-panel-desc {
+  margin: 0px;
+}
+.between .text-panel-desc {
+  text-align: start;
+}
+.between .text-panel-desc {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  margin-top: 20px;
+}
+.between {
+  width: 396px;
+  height: 511px;
+  padding: 30px;
+}
+.four-panels {
+  display: flex;
+  gap: 20px;
+  margin-top: 40px;
+}
+.summary {
+  margin-top: 30px;
+  width: 889px;
+}
+.bold {
+  font-weight: bold;
+  opacity: 1;
+}
+.right-things {
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  align-items: end;
+}
+.text-panels {
+  flex-wrap: wrap;
+}
+.text-panel {
+  margin-top: 20px;
+}
+.between {
+  width: 384px;
+}
+.open-position {
+  flex-wrap: wrap;
+}
+.text-panels img {
+  margin-top: 20px;
+}
+@media only screen and (max-width: 1338px) {
+  .main-heading {
+    font-size: 100px;
+    margin-bottom: 10px;
+  }
+  .heading {
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .second-section {
+    padding: 100px 25px;
+    text-align: center;
+  }
+  .bestthings {
+    justify-content: center;
+    align-items: center;
+  }
+  .bestthings .heading {
+    text-align: center;
+    top: -30px;
+  }
+  section {
+    padding: 100px 5px !important;
+  }
+}
+@media only screen and (max-width: 1550px) {
+  .management-people {
+    width: 100%;
+  }
+  .carrers-main {
+    padding: 50px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .company {
+    flex-direction: column;
+    text-align: center;
+  }
+  .company-info {
+    right: 0px !important;
+  }
+  .second-section {
+    padding: 100px 5px;
+    text-align: center;
+  }
+  .runsun-study {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  section {
+    padding: 100px 5px !important;
+  }
+  .case-study {
+    padding: 65px !important;
+  }
+  .main-case-desc {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .case-study .main-heading {
+    text-align: center;
+  }
+  .main-invest-conts {
+    flex-wrap: wrap;
+    border: 0;
+    padding: 0;
+  }
+  .main-invest {
+    margin-top: 50px;
+  }
+  .main-invest .desc-invest {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1352px) {
+  .case-study {
+    padding: 65px;
+  }
+  .banner-res {
+    background-size: initial !important;
+  }
+}
+@media only screen and (max-width: 1140px) {
+  .management-people {
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+  }
+  .investment-desc {
+    width: 100%;
+  }
+  .people-desc {
+    padding: 0;
+  }
+  .not-reverse {
+    flex-wrap: wrap !important;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .company-desc {
+    width: 100%;
+  }
+  .carrer-value-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .carrers-values {
+    margin-top: 20px;
+  }
+  .company img {
+    width: 100% !important;
+  }
+  .middle-border {
+    display: none;
+  }
+  .demand img {
+    width: 100vw !important;
+  }
+  .main-invest .desc-invest {
+    width: 100%;
+    margin: inherit 30px;
+  }
+  .core-management {
+    padding: 45px;
+  }
+  .description {
+    font-size: 30px;
+  }
+  .invest-container {
+    width: 90%;
+  }
+  .approach-main img {
+    width: 100vw !important;
+  }
+}
+.start {
+  text-align: start;
+}
+@media only screen and (max-width: 648px) {
+  .tech-comm-cont img {
+    width: 100%;
+  }
+  .tech-desc {
+    font-size: 20px;
+    width: 100%;
+  }
+  .text-panels img {
+    width: 100% !important;
+  }
+  .description {
+    font-size: 22px;
+  }
+  .investment-desc {
+    font-size: 19px;
+  }
+  .contact-desc {
+    font-size: 20px !important;
+  }
+  .btn {
+    font-size: 30px;
+    width: 362px;
+    height: 71px;
+  }
+  .carousel-icons {
+    font-size: 22px;
+  }
+  .desc-approach {
+    font-size: 20px;
+  }
+  .study {
+    font-size: 20px;
+  }
+  .case-study {
+    padding: 5px !important;
+  }
+  .font-28 {
+    font-size: 20px;
+  }
+  .between .text-panel-desc {
+    font-size: 22px !important;
+  }
+}
+@media only screen and (max-width: 498px) {
+  .main-heading {
+    font-size: 80px;
+  }
+
+  .carrers-values {
+    background-size: 180% !important;
+  }
+  .heading {
+    font-size: 26px;
+  }
+  .text-panel {
+    padding: 10px;
+  }
+  .text-panel-desc {
+    font-size: 18px;
+  }
+  .contact-us {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  .contact-desc {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+* {
+  animation: fade 1s;
+}
+.tech-comm-cont {
+  flex-wrap: wrap-reverse;
+}
+.left-column {
+  margin-top: 30px;
+}
+.form-add {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.form-add input {
+  padding: 20px;
+  font-size: 30px;
+}
+.form-add button {
+  border: none;
+  background-color: red;
+  color: white;
+  height: 100px;
+  font-size: 25px;
+  cursor: pointer;
+}
+.container-form {
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+html {
+  animation: none !important;
+}
